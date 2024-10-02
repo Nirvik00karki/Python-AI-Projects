@@ -1,0 +1,65 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello!", "Hi there!", "Greetings!", "Hi! How can I assist you today?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Take care", "Talk to you soon"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Have a great day!"],
+        "context_set": ""
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!", "Anytime!"],
+        "context_set": ""
+      },
+      {
+        "tag": "name",
+        "patterns": ["What is your name?", "Who are you?", "Can you tell me your name?", "What's your bot's name?"],
+        "responses": ["I am a chatbot created to assist you.", "You can call me Chatbot.", "I'm your virtual assistant."],
+        "context_set": ""
+      },
+      {
+        "tag": "weather",
+        "patterns": ["What's the weather like?", "Tell me the weather", "How's the weather today?", "Is it raining today?"],
+        "responses": ["I can't check the weather right now, but you can try a weather service.", "It looks like a sunny day!"],
+        "context_set": ""
+      },
+      {
+        "tag": "help",
+        "patterns": ["Can you help me?", "I need help", "Can you assist me?", "Help me please"],
+        "responses": ["Of course! What do you need help with?", "I'm here to help. What do you need assistance with?"],
+        "context_set": ""
+      },
+      {
+        "tag": "age",
+        "patterns": ["How old are you?", "What's your age?", "How long have you been working?"],
+        "responses": ["I am a program, so I don't have an age.", "Age is just a number for me!"],
+        "context_set": ""
+      },
+      {
+        "tag": "hours",
+        "patterns": ["What hours do you work?", "When are you available?", "Are you working right now?", "Can I talk to you anytime?"],
+        "responses": ["I'm available 24/7!", "You can talk to me anytime.", "I'm always here to help you."],
+        "context_set": ""
+      },
+      {
+        "tag": "location",
+        "patterns": ["Where are you located?", "Where do you work from?", "What's your location?"],
+        "responses": ["I'm virtual, so I exist everywhere!", "I'm not bound by a physical location."],
+        "context_set": ""
+      },
+      {
+        "tag": "joke",
+        "patterns": ["Tell me a joke", "Can you make me laugh?", "I want to hear a joke"],
+        "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "What do you get if you cross a snowman and a vampire? Frostbite!"],
+        "context_set": ""
+      }
+    ]
+  }
+  
